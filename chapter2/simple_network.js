@@ -76,7 +76,7 @@ for (var iter = 0; iter < 400; iter++) {
 	var db2 = y * dn2
 	var dc2 = 1.0 * dn2
 
-	backprop n3
+	/// backprop n3
 	var da3 = x * dn3
 	var db3 = y * dn3
 	var dc3 = 1.0 * dn3
